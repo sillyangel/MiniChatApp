@@ -7,30 +7,49 @@
 </head>
 <body>
     <div class="app">
-        <div class="screen join-screen">
+        <div class="screen join-screen active">
             <div class="form">
                 <h2>Join Chatroom</h2>
                 <div class="form-input">
-                    <label>username</label>
+                    <label>Username</label>
                     <input type="text" id="username">
                 </div>
                 <div class="form-input">
-                    <button id="join-user">Join</button>
+                    <button class="join-use">Join</button>
                 </div>
             </div>
         </div>
-        <div class="screen chat-screen active">
+        <div class="screen chat-screen">
             <div class="header">
                 <div class="logo">Chatroom</div>
                 <button id="exit-chat">Exit</button>
-                <div class="messages">
-                </div>
-                <div class="type">
-                    <input type="text" id="message-input">
-                    <button class="send-message">Send</button>
-                </div>
+            </div>
+            <div class="message">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="typebox">
+                <input type="text" id="message-input">
+                <button id="send-message">Send</button>
+            </div>
         </div>
-        </div>
+    </div>
 
     <script src="socket.io/socket.io.js"></script>
     <script src="code.js"></script>
